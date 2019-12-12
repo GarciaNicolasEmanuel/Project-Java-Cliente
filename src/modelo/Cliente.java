@@ -13,6 +13,13 @@ public class Cliente {
     private String nombre;
     private String apellido;
     private int edad;
+    
+    public Cliente(String nombre, String apellido, int edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+    }
+    public Cliente(){}
 
     public String getNombre() {
         return nombre;
@@ -38,10 +45,5 @@ public class Cliente {
         this.edad = edad;
     }
 
-    public Cliente(String nombre, String apellido, int edad) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.edad = edad;
-    }
-    public Cliente(){}
+  
 }
