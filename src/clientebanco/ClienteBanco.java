@@ -26,6 +26,7 @@ public class ClienteBanco {
         CuentaAhorro ca0 = new CuentaAhorro(c1, 2, 25000, 0.03);
         CuentaAhorro ca1 = new CuentaAhorro(c0, 1, 0.03);
         CuentaAhorro ca2 = new CuentaAhorro(c0, 1);
+        
         System.out.println(cc0.toString());
         System.out.println(cc1.toString());
 
